@@ -9,7 +9,6 @@ import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter;
 import org.springframework.security.web.util.matcher.AntPathRequestMatcher;
 import org.springframework.security.web.util.matcher.RequestMatcher;
-import org.springframework.stereotype.Service;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -21,7 +20,7 @@ import java.io.IOException;
  * @date 2020/2/11 11:12
  * @since V1.0.0
  */
-@Service
+//@Service
 public class MyAbstractAuthenticationProcessingFilter extends AbstractAuthenticationProcessingFilter {
 
 

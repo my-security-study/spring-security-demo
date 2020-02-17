@@ -2,7 +2,6 @@ package com.example.security.handler;
 
 import org.springframework.security.core.AuthenticationException;
 import org.springframework.security.web.authentication.AuthenticationFailureHandler;
-import org.springframework.stereotype.Component;
 
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServletRequest;
@@ -14,7 +13,7 @@ import java.io.IOException;
  * @date 2020/2/11 11:17
  * @since V1.0.0
  */
-@Component
+//@Component
 public class DefaultAuthenticationFailureHandler implements AuthenticationFailureHandler {
 
     @Override

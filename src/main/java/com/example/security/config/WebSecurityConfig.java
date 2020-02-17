@@ -46,7 +46,6 @@ public class WebSecurityConfig  extends WebSecurityConfigurerAdapter {
                 .withUser("chenling").password(passwordEncoder().encode("123456")).roles("USER");
     }
 
-
     @Bean
     public PasswordEncoder passwordEncoder(){
         return new BCryptPasswordEncoder();
